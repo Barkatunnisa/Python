@@ -1,0 +1,23 @@
+sub1=int(input("enter subject1 marks:"))
+sub2=int(input("enter subject2 marks:"))
+sub3=int(input("enter subject3 marks:"))
+sub4=int(input("enter subject4 marks:"))
+sub5=int(input("enter subject5 marks:"))
+sum=sub1+sub2+sub3+sub4+sub5
+print("the total marks obtained in all subjects is",sum)
+avg=sum/5
+print("the average marks obtained is",avg)
+if avg>=90:
+    print("the student got O grade")
+elif avg>=80 and avg<90:
+    print("the student got A+ grade")
+elif avg>=70 and avg<80:
+    print("the student got A grade")
+elif avg>=60 and avg<70:
+    print("the student got B+ grade")
+elif avg>=50 and avg<60:
+    print("the student got B grade")
+elif avg>=40 and avg<50:
+    print("the student got C grade ")
+else:
+    print("the student got F grade")

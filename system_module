@@ -1,0 +1,7 @@
+import sys
+program_name=sys.argv[0]
+a=float(sys.argv[1])
+b=float(sys.argv[2])
+sum=a+b
+print("the program name is",program_name)
+print("the sum of two numbers is ",sum)

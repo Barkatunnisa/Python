@@ -1,0 +1,13 @@
+def fabinocci(n):
+    a=[0,1]
+    sum=0
+    for i in range(2,n,1):
+        next_element=a[i-1]+a[i-2]
+        a.append(next_element)
+    print("fabinocci sequence:",a)
+    for i in a:
+        if i%2==0:
+            sum+=i
+    print("the sum of even-valued terms in fabinocci under ten thousand ",sum)
+n=21
+fabinocci(n)

@@ -1,0 +1,10 @@
+def cumulative_product():
+    a=[]
+    product=1
+    n=int(input("enter the size of list:"))
+    for i in range(0,n):
+        element=int(input("enter the element value:"))
+        a.append(element)
+        product=product*element
+    print("the cumulative product is:", product)
+cumulative_product()

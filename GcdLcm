@@ -1,0 +1,9 @@
+from math import gcd
+def gcd1(a,b):
+    return gcd(a,b)
+def lcm1(a,b):
+    return a*b/gcd(a,b)
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+print("the gcd of two numbers is:",gcd1(a,b))
+print("the lcm of two numbers is:",lcm1(a,b))

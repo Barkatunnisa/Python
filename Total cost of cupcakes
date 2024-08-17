@@ -1,0 +1,10 @@
+#total cost of cupcakes if each cupcake cost is given in dollar and cent
+a =int(input("enter the cost in dollars:"))
+b=int(input("enter the cost in cents:"))
+c=int(input("enter the number of cupcakes:"))
+d=b/100 
+d=d+a
+d=d*c
+e=d-int(d)
+e=round(e*100)
+print("total cost:",int(d),int(e))

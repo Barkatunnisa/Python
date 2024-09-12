@@ -1,0 +1,8 @@
+def count_numerical_digits(input_string):
+    count = 0
+    for char in input_string:
+        if char.isdigit():
+            count += 1
+    return count
+input_string=input("enter the string:")
+print("the count of numericals in given string is:",count_numerical_digits(input_string))

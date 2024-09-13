@@ -1,0 +1,5 @@
+def removeOccurances(s,c):
+    return s.replace(c,"")
+input1=input("enter the string:")
+char=input("enter the character:")
+print(removeOccurances(input1,char))

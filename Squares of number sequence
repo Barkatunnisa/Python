@@ -1,0 +1,14 @@
+num=int(input())
+num_str=str(num)
+rev=[]
+if(10<=num<=1000000):
+    for i in num_str:
+        i1=int(i)
+        if i1>=2:
+            rev.append(str(i1**2))
+        else: 
+            rev.append(i)
+
+    print(''.join(reversed (rev)))
+else:
+    print("Wrong Input")
